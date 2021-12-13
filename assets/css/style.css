@@ -1,17 +1,7 @@
 body {
-    margin:auto;
-
+    background-color: brown;
 }
 
-h1 {
-    text-align: center;
-    background-color: red;
-}
-
-header {
-
-}
-
-footer {
-
+h6 {
+    color: brown;
 }
