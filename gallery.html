@@ -48,64 +48,66 @@
         </section>
     </section>
     <section>
-        <div class="container-fluid">
-            <div class="row gallery">
-                <div class="col">
-                    <img src="assets/images/IMG_2668.JPG" class="img-fluid" alt="1">
-                </div>
-                <div class="col">
-                    <img src="assets/images/IMG_2674.JPG" class="img-fluid" alt="2">
-                </div>
-                <div class="col">
-                    <img src="assets/images/IMG_2704.JPG" class="img-fluid" alt="3">
-                </div>
-                <div class="col">
-                    <img src="assets/images/IMG_2778.JPG" class="img-fluid" alt="4">
-                </div>
-            </div>
+        <div class="modal-body">
+            <div class="container-fluid">
                 <div class="row gallery">
-                <div class="col">
-                    <img src="assets/images/IMG_2668.JPG" class="img-fluid" alt="1">
+                    <div class="col">
+                        <img src="assets/images/IMG_2668.JPG" class="img-fluid" alt="1">
+                    </div>
+                    <div class="col">
+                        <img src="assets/images/IMG_2674.JPG" class="img-fluid" alt="2">
+                    </div>
+                    <div class="col">
+                        <img src="assets/images/IMG_2704.JPG" class="img-fluid" alt="3">
+                    </div>
+                    <div class="col">
+                        <img src="assets/images/IMG_2778.JPG" class="img-fluid" alt="4">
+                    </div>
                 </div>
-                <div class="col">
-                    <img src="assets/images/IMG_2674.JPG" class="img-fluid" alt="2">
+                <div class="row gallery">
+                    <div class="col">
+                        <img src="assets/images/IMG_2668.JPG" class="img-fluid" alt="1">
+                    </div>
+                    <div class="col">
+                        <img src="assets/images/IMG_2674.JPG" class="img-fluid" alt="2">
+                    </div>
+                    <div class="col">
+                        <img src="assets/images/IMG_2704.JPG" class="img-fluid" alt="3">
+                    </div>
+                    <div class="col">
+                        <img src="assets/images/IMG_2778.JPG" class="img-fluid" alt="4">
+                    </div>
                 </div>
-                <div class="col">
-                    <img src="assets/images/IMG_2704.JPG" class="img-fluid" alt="3">
+                <div class="row gallery">
+                    <div class="col">
+                        <img src="assets/images/IMG_2668.JPG" class="img-fluid" alt="1">
+                    </div>
+                    <div class="col">
+                        <img src="assets/images/IMG_2674.JPG" class="img-fluid" alt="2">
+                    </div>
+                    <div class="col">
+                        <img src="assets/images/IMG_2704.JPG" class="img-fluid" alt="3">
+                    </div>
+                    <div class="col">
+                        <img src="assets/images/IMG_2778.JPG" class="img-fluid" alt="4">
+                    </div>
                 </div>
-                <div class="col">
-                    <img src="assets/images/IMG_2778.JPG" class="img-fluid" alt="4">
+                <div class="row gallery">
+                    <div class="col">
+                        <img src="assets/images/IMG_2668.JPG" class="img-fluid" alt="1">
+                    </div>
+                    <div class="col">
+                        <img src="assets/images/IMG_2674.JPG" class="img-fluid" alt="2">
+                    </div>
+                    <div class="col">
+                        <img src="assets/images/IMG_2704.JPG" class="img-fluid" alt="3">
+                    </div>
+                    <div class="col">
+                        <img src="assets/images/IMG_2778.JPG" class="img-fluid" alt="4">
+                    </div>
                 </div>
             </div>
-            <div class="row gallery">
-                <div class="col">
-                    <img src="assets/images/IMG_2668.JPG" class="img-fluid" alt="1">
-                </div>
-                <div class="col">
-                    <img src="assets/images/IMG_2674.JPG" class="img-fluid" alt="2">
-                </div>
-                <div class="col">
-                    <img src="assets/images/IMG_2704.JPG" class="img-fluid" alt="3">
-                </div>
-                <div class="col">
-                    <img src="assets/images/IMG_2778.JPG" class="img-fluid" alt="4">
-                </div>
-            </div>
-            <div class="row gallery">
-                <div class="col">
-                    <img src="assets/images/IMG_2668.JPG" class="img-fluid" alt="1">
-                </div>
-                <div class="col">
-                    <img src="assets/images/IMG_2674.JPG" class="img-fluid" alt="2">
-                </div>
-                <div class="col">
-                    <img src="assets/images/IMG_2704.JPG" class="img-fluid" alt="3">
-                </div>
-                <div class="col">
-                    <img src="assets/images/IMG_2778.JPG" class="img-fluid" alt="4">
-                </div>
-            </div>
-            </div>
+        </div>
         </div>
     </section>
     <section>
@@ -124,6 +126,14 @@
             </li>
         </ul>
     </footer>
+    <script>
+        var myModal = document.getElementById('myModal')
+        var myInput = document.getElementById('myInput')
+
+        myModal.addEventListener('shown.bs.modal', function () {
+            myInput.focus()
+        })
+    </script>
 </body>
 
 </html>
