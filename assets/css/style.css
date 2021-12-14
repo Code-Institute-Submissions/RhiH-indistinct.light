@@ -27,7 +27,15 @@ h6 {
 .center-form {
     padding: 10px;
 }
-/*
+
 button {
-    padding: 10px;
-}*/
+    margin: 10px;
+}
+
+footer: a {
+    text-decoration: none;
+}
+
+.about-project {
+    text-align: justify;
+}
