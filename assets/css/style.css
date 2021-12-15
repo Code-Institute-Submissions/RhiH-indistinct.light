@@ -23,11 +23,6 @@ h6 {
     padding-bottom: 20px;
 }
 
-.fa-twitter {
-    color: red;
-    text-decoration-color: red;
-}
-
 .center-form {
     padding: 10px;
 }
@@ -42,4 +37,9 @@ footer a {
 
 .about-project {
     text-align: justify;
+}
+
+.social-media {
+    font-size: 20px;
+    color: #16001eff;
 }
