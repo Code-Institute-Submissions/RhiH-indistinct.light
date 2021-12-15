@@ -2,7 +2,6 @@ body {
     background-color: #f1f1f1;
     font-family: "Optima", sans-serif;
     color: #16001eff;
-    margin: 30px 100px;
 }
 
 h1,
@@ -12,23 +11,23 @@ h4,
 h5,
 h6 {
     text-align: center;
-    padding: 10px;
+    padding: 0.625rem;
 }
 
 .gallery img {
-    padding-bottom: 20px;
+    padding-bottom: 1.25rem;
 }
 
 .index img {
-    padding-bottom: 20px;
+    padding-bottom: 1.25rem;
 }
 
 .center-form {
-    padding: 10px;
+    padding: 0.625rem;
 }
 
 button {
-    margin: 10px;
+    margin: 0.625rem;
 }
 
 footer a {
@@ -40,7 +39,7 @@ footer a {
 }
 
 .social-media {
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .social-media i {
