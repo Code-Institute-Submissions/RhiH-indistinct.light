@@ -25,12 +25,14 @@ button {
     margin: 0.625rem;
 }
 
-footer a {
-    text-decoration: none;
+.about-artist {
+    text-align: justify;
+    margin: 0.625rem;
 }
 
 .about-project {
     text-align: justify;
+    margin: 0.625rem;
 }
 
 .social-media {
