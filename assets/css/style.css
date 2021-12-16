@@ -1,21 +1,35 @@
+/*---------------body-------------*/
 body {
     background-color: #f1f1f1;
     font-family: "Optima", sans-serif;
     color: #16001eff;
 }
 
+/*----------------header------------*/
 .header {
     text-align: center;
     padding: 0.625rem;
 }
 
+/*---------footer styling-------*/
+
+.social-media {
+    font-size: 1.25rem;
+    color: #16001eff;
+}
+
+
+/*--------images on index page------*/
+.index img {
+    padding-bottom: 1.25rem;
+}
+
+/*------images on gallery page------*/
 .gallery img {
     padding-bottom: 1.25rem;
 }
 
-.index img {
-    padding-bottom: 1.25rem;
-}
+/*----contact form page styling-----*/
 
 .center-form {
     padding: 0.625rem;
@@ -25,6 +39,8 @@ button {
     margin: 0.625rem;
 }
 
+/*---------about page styling-----*/
+
 .about-artist {
     text-align: justify;
     margin: 0.625rem;
@@ -33,9 +49,4 @@ button {
 .about-project {
     text-align: justify;
     margin: 0.625rem;
-}
-
-.social-media {
-    font-size: 1.25rem;
-    color: #16001eff;
 }
