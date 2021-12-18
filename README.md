@@ -51,14 +51,45 @@ A key part of the design was to keep in mind the website aims. Each part of the 
 
 These were created to have a flexible approach in terms of the structure, as the design could be amended as needed during the creation of the site as the development of it progressed. 
 
+As the site would be image heavy it was decided that creating additional wireframes to review mobile structure would not be needed as styling the images to resize was already a key factor in developing the site as a whole, and this would be continually reviewed throughout development.
+
+It was also decided that four pages would be required - the home page, a gallery page, an about page and a contact page. This would keep the information about the project and artist on a separate page to the gallery, so the pages themselves would not feel cluttered and the focus of each was solely devoted to one area. 
+
 ### Colour Scheme
 
-The colour scheme was kept as simple as possible. Using one of the images from the project, a colour was selected (using Adobe Photoshop tools) and then utilising the coolers website a colour palette was created. It was decided to keep the colour scheme as simple as possible, as it was felt additional use of colour could detract from the overall impact of the site, and potentially could affect the website aims of ensuring the site looked as professional as possible. 
+The colour scheme was kept as simple as possible. Using one of the images from the project, a colour was selected (using Adobe Photoshop tools) and then utilising the coolers website a colour palette was created. It was decided to keep the colour scheme as simple as possible, as it was felt additional use of colour could detract from the overall impact of the site, and potentially could affect the website aims of making the site easy to navigate and ensuring the site looked as professional as possible. 
 
 ![colour scheme](/assets/images/color-scheme.png)
-
 
 As part of this a decision was made to restyle the social media links in the footer of each page to ensure they reflected to chosen colour palette.
 
 Also after some thought it was decided to stick to the first two colours and keep the remainder in reserve, should additional styling be required in the future. 
+
+### Consistent Styling Across All Pages
+
+The header on all pages has a navigation bar with a logo. Clicking the logo takes the user back to the home page. The styling was kept as clean and simple as possible, with a light background. It also incorporates a collapse button to enable ease of navigation on smaller screen sizes. This style was felt to be contemporary and in keeping with the goals of creating a site that has a professional feel to it, and presenting it as one that would be familiar to all who access websites regularly on their mobile phones.
+
+![desktop navigation bar](/assets/images/navbar-desktop.png)
+![small screen navigation bar](/assets/images/navbar-smallscreen.png)
+
+h1 and h2 were used to display the project title and subtitle. This is used consistently across all pages, to create a cohesive approach. It was included on the contact page as it was felt this was more consistent with the rest of the site.
+
+![title and subtitle](/assets/images/title-subtitle.png)
+
+The footer contains social media links that launch in a new blank page. It was decided that Twitter, Pinterest and Instagram would be the most appropriate to use, as all three are often utilised by artists in sharing their work. All three have aria-hidden: true as this was thought to be the best approach. Also included is rel: no-referrer as a privacy enhancement.
+
+![footer](/assets/images/social-media.png)
+
+**other notable page styling**
+
+On the home, gallery and about pages an additional line of text sits above the footer. This was not included on the contact page as it was felt to be unnecessary for the page, as it does not contain, any images other than the logo nor any information about the project other than the project title and sibtitle.
+
+![lower page text](/assets/images/lower-page-text.png)
+
+
+
+
+
+
+
 
