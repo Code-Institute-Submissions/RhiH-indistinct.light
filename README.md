@@ -2,12 +2,6 @@
 
 Indistinct Light was a photography project from late December 2020 to June 2021. It focused on images taken on the same route around the same time each night. One of the issues regarding the project was how to present the work to a wider audience when the majority of the work has never been in a gallery setting, and indeed many of the images remain virtual and have never been printed. A website for the project is a perfect solution.
 
-## **Contents:**
-![Planning the Project Website](##Planning-the-Project-Website:)
-
-
-
-
 ## Planning the Project Website:
 
 ### What is the Target Audience?
@@ -77,6 +71,7 @@ The header on all pages has a navigation bar with a logo. Clicking the logo take
 Desktop Navigation
 
 ![small screen navigation bar](/assets/images/navbar-smallscreen.png)
+![small screen navigation menu](/assets/images/mob-header.png)
 
 Mobile Navigation
 
@@ -95,6 +90,77 @@ On the home, gallery and about pages an additional line of text sits above the f
 ![lower page text](/assets/images/lower-page-text.png)
 
 ### Individual Page Styling
+
+**Home Page**
+
+The home page was kept simple. It was realised very early on that due to the complexity of the images in the project, including more visual items could detract from the feel of the whole project and therefore any ideas of including background images were dimissed early on in the planning stages. It was decided to use four images and some text as an introduction to the project. 
+
+On desktop the images are in a grid system of two columns and two rows.
+
+![index page desktop](/assets/images/homepage.png)
+
+This then resizes to one image when viewed on a smaller screen. 
+
+![index page small screen](/assets/images/mob-home.png)
+
+Styling of this page was consistently tested to ensure that the page met all the criteria in the website aims. Several ideas were discarded early on - including the previously mentioned idea of having a background image. The idea of a banner included in the original wireframe design was also excluded as this was felt that it could become a distraction. 
+
+Four images were selected as it was thought more than this would be too much for the home page when there ws a specific page for the gallery.
+
+**Gallery Page**
+
+The gallery page was recognised to be likely the most complex early on in the design of the site. It would be an image heavy page and there were a number of considerations regarding how best to display the photographs from the project. 
+
+Originally it was thought that perhaps follwing the wireframe design of columns and rows would be best. However, it was quickly realised after this was tested that the images would suffer in that there would be no way of re-sizing the images to see them in greater detail if this design format was maintained. 
+
+Various ideas in terms of resizing the columns and rows were considered. Also a way of the user clicking on an image and having it re-size to a larger size was also considered as an option. 
+
+The choice of the carousel slide gallery meant that selected images could be larger on desktops and give an appealing look to the page, rather than just images that would be difficult to view in detail. In addition the carousel could also text, creating a more dynamic site, and giviing the user a more interesting experience in viewing the images. 
+
+![carousel image 1](/assets/images/carousel-1.png)
+![carousel image 2](/assets/images/carousel-2.png)
+
+Desktop carousel images
+
+![small screen carousel image](/assets/images/mob-gallery.png)
+
+Originally it was thought that the carousel would be the only set of images on the page, but as the development continued it was decided that additional images could be displayed below the carousel. The same design criteria in terms of how many images would sit in a column was copied from the home page to keep the site design feeling consistent. However the number of rows was increased to differentiate between the two pages.
+
+**About Page**
+
+The about page was, in contrast to the gallery page's complexity, the most simple in terms of content. This was a page solely of text and therefore the key part of this was the textual content rather than any images,therefore the styling was kept as simple as possible. 
+
+![about page on desktop](/assets/images/about-text.png)
+
+The about page on desktop
+![small screen about page](/assets/images/mob-about.png)
+
+The about page on small screen
+
+Other than keeping the styling consistent this page was kept clear from any images. It was considered whether to put an image of the artist and potentially another image from the project on the page, but it was felt that the page's simplicity worked well in terms of explaining the project and therefore it did not need any additional features.
+
+**Contact Page**
+
+The contact page was also devoid of any images. It was decided to keep the same feel on this page in conjuction with the about page - as therefore there would not be one page that in particular stood out for not having the same things as the others. The only difference on this page of course is the previously mentioned lack of a line of text above the footer. 
+
+![contact page on desktop](/assets/images/contactform.png)
+
+The contact page on desktop
+
+This was not included as it was felt it would detract from the submit button below the contact form.
+
+![contact page on small screen](/assets/images/mob-contact.png)
+
+Small screen contact form
+
+The submit button is simply styled. Other styles were tried, however none seemed to keep the same feel in terms of style that the submit button has in it's current form. It echoes the text above the contact form and also below with the social media buttons and consequently it was decided to keep the button in its original form as it was better suited to the look of the whole page.
+
+## CSS Styling
+
+The CSS for the site was limited in terms of amount. As the design of the site was kept as simple as possible the number of classes required for styling is minimal. The colour scheme and font styling are consistent across the individual pages and consequently, little styling was required other than to ensure that text and images were appropriately sized and were responsive depending on what device the user had to view the site. 
+
+CSS was continually worked on during the development of the site. Pixels were cange to rem as this ensured more consistent sizing for the fonts. Testing was undertaken throughout the process.
+
 
 
 
