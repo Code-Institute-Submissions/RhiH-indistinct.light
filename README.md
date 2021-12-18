@@ -49,7 +49,7 @@ A key part of the design was to keep in mind the website aims. Each part of the 
 ![about wireframe](assets/images/about-wireframe.png)
 ![contact wireframe](assets/images/contact-wireframe.png)
 
-These were created to have a flexible approach in terms of the structure, as the design would be amended as needed during the creation of the site as the development of it progressed.
+These were created to have a flexible approach in terms of the structure, as the design could be amended as needed during the creation of the site as the development of it progressed. 
 
 ### Colour Scheme
 
