@@ -2,6 +2,8 @@
 
 Indistinct Light was a photography project from late December 2020 to June 2021. It focused on images taken on the same route around the same time each night. One of the issues regarding the project was how to present the work to a wider audience when the majority of the work has never been in a gallery setting, and indeed many of the images remain virtual and have never been printed. A website for the project is a perfect solution.
 
+![Indistinct Light Responsive Display](docs/responsive.png)
+
 ## Planning the Project Website:
 
 ### What is the Target Audience?
@@ -41,10 +43,10 @@ A key part of the design was to keep in mind the website aims. Each part of the 
 
 #### Wireframes
 
-![index wireframe](docs/index-wireframe.png)
-![gallery wireframe](docs/gallery-wireframe.png)
-![about wireframe](docs/about-wireframe.png)
-![contact wireframe](docs/contact-wireframe.png)
+- [index wireframe](docs/index-wireframe.png)
+- [gallery wireframe](docs/gallery-wireframe.png)
+- [about wireframe](docs/about-wireframe.png)
+- [contact wireframe](docs/contact-wireframe.png)
 
 These were created to have a flexible approach in terms of the structure, as the design could be amended as needed during the creation of the site as the development of it progressed. 
 
@@ -71,7 +73,7 @@ The header on all pages has a navigation bar with a logo. Clicking the logo take
 Desktop Navigation
 
 ![small screen navigation bar](docs/navbar-smallscreen.png)
-![small screen navigation menu](docs/images/mob-header.png)
+![small screen navigation menu](docs/mob-header.png)
 
 Mobile Navigation
 
@@ -132,10 +134,8 @@ The about page was, in contrast to the gallery page's complexity, the most simpl
 
 ![about page on desktop](docs/about-text.png)
 
-The about page on desktop
-![small screen about page](docs/mob-about.png)
 
-The about page on small screen
+![small screen about page](docs/mob-about.png)
 
 Other than keeping the styling consistent this page was kept clear from any images. It was considered whether to put an image of the artist and potentially another image from the project on the page, but it was felt that the page's simplicity worked well in terms of explaining the project and therefore it did not need any additional features.
 
@@ -171,32 +171,48 @@ As there is only a small amount of CSS this was relatively easy to check. Errant
 
 A modal was added to trial a pop up style window for the images in the gallery, however this did not work as well as was hoped and therefore the code was removed and the carousel was added instead.
 
+During discussions with my mentor Richard an amendment to the code for the carousel was suggested. However, on trialling this at a later point it affected the overall useability and consequently I reverted the code back to the original.
+
 Changes to the code were committed regularly and notes were added to clarify what the changes were.
+
 
 ## Validation
 
 The pages passed vaildation checks after a few amendments - including one where the DOCTYPE had been let off 3 of the pages! After updating this only minor elements needed amending including a space between the aria labelling in the footer as it did not have one between that and the i class. testing with  and  were both trialled during the development stages so any minor errors were picked up earlier in the process and corrected. 
 
+![HTML Checking](docs/html-check.png)
+![CSS Checking](docs/css-check.png)
+
 ## Deployment
 
-Deployment was via G pages. 
+Deployment was via Github pages. This was tested in advance prior to the finished design as part ofthe testing of the site and learning the use of Github in general.
 
-Future Updates:
+## Future Updates:
 
-I would like to continue adding images and potentially develop both the project and the site. There is capacity for more work to be created as a stage 2 of the Indistinct Light project, as a contrast to the original work. The site also has the capacity for development as it could incread in terms of number of pages, more information about the project, more images and also links to other work by myself.
+I would like to continue adding images and potentially develop both the project and the site.
 
-## Honorable mentions:
+I would like to explore what other functionality I could include by using javascript as I could see what this could offer, but did not have the current skillset to utilise. 
+
+There is capacity for more work to be created as a stage 2 of the Indistinct Light project as a contrast to the original work. The site also has the capacity for development as it could incread in terms of number of pages, more information about the project, more images and also links to other work by myself.
+
+## Credits 
+
+**Honorable mentions:**
 
 A huge thank you to my mentor Richard without whom this project would not have progressed forward.
 
 The community on Slack who unknowingly assisted by asking questions months before I began this project, and the answers therein I found invaluable.
 
-Credits 
+**Other references:**
 
-## Content:
+This site was created following the completion of the Love Running project and the modules on HTML and CSS by the Code Institute. This helped me design my own pages, and any similarities in code are accidental.
+I have used Bootstrap during this project, along with the validators for CSS and HTML. 
+
+**Content:**
 
 All content and images was written by myself.
-Icons in the footer were taken from Font Awesome.
+Icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+Font style chosen was the standard Optima stylistically it suited the project. 
 
 
 
