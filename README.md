@@ -72,15 +72,11 @@ The header on all pages has a navigation bar with a logo. Clicking the logo take
 
 ![desktop navigation bar](docs/navbar-desktop.png)
 
-Desktop Navigation
-
 ![small screen navigation bar](docs/navbar-smallscreen.png)
 
 In terms of the content of the navigation with regards to the text included, it was felt the best approach would be to keep things simple so as not to clutter the screen, especially on smaller screens. 
 
 ![small screen navigation menu](docs/mob-header.png)
-
-Mobile Navigation
 
 **Title and Subtitle**
 
@@ -131,8 +127,6 @@ The choice of the carousel slide gallery meant that selected images could be lar
 ![carousel image 1](docs/carousel-1.png)
 ![carousel image 2](docs/carousel-2.png)
 
-Desktop carousel images
-
 ![small screen carousel image](docs/mob-gallery.png)
 
 Originally it was thought that the carousel would be the only set of images on the page, but as the development continued it was decided that additional images could be displayed below the carousel. The same design criteria in terms of how many images would sit in a column was copied from the home page to keep the site design feeling consistent. However the number of rows were increased to differentiate between the two pages.
@@ -160,8 +154,6 @@ The line of text was not included as it was felt it would detract from the submi
 
 ![contact page on small screen](docs/mob-contact.png)
 
-Small screen contact form
-
 The submit button is simply styled. Other styles were tried, however none seemed to keep the same feel in terms of style that the submit button has in it's current form. It echoes the text above the contact form and also below with the social media buttons and consequently it was decided to keep the button in its original form as it was better suited to the look of the whole page.
 
 ## CSS Styling
@@ -185,7 +177,6 @@ A modal was added to trial a pop up style window for the images in the gallery, 
 During discussions with my mentor Richard an amendment to the code for the carousel was suggested. However, on trialling this at a later point it affected the overall useability and consequently I reverted the code back to the original.
 
 Changes to the code were committed regularly and notes were added to clarify what the changes were.
-
 
 ## Validation
 
@@ -224,7 +215,7 @@ I have used Bootstrap during this project, along with the validators for CSS and
 
 - Icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 - Font style chosen was the standard Optima stylistically it suited the project. 
-- All content and images were created by me.
+- All content and images were created by myself.
 
 
 
