@@ -56,7 +56,7 @@ It was also decided that four pages would be required - the home page, a gallery
 
 ### Colour Scheme
 
-The colour scheme was kept as simple as possible. Using one of the images from the project, a colour was selected (using Adobe Photoshop tools) and then utilising the coolers website a colour palette was created. It was decided to keep the colour scheme as simple as possible, as it was felt additional use of colour could detract from the overall impact of the site, and potentially could affect the website aims of making the site easy to navigate and ensuring the site looked as professional as possible. 
+The colour scheme was kept as simple as possible. Using one of the images from the project, a colour was selected (using Adobe Photoshop tools) and then utilising the [coolers](https://coolors.co/) colour scheme generator a colour palette was created. It was decided to keep the colour scheme as simple as possible, as it was felt additional use of colour could detract from the overall impact of the site, and potentially could affect the website aims of making the site easy to navigate and ensuring the site looked as professional as possible. 
 
 ![colour scheme](docs/color-scheme.png)
 
@@ -96,7 +96,7 @@ The footer contains social media links that launch in a new blank page. It was d
 
 **Other Notable Page Styling**
 
-On the home, gallery and about pages an additional line of text sits above the footer. This was not included on the contact page as it was felt to be unnecessary for the page, as it does not contain, any images other than the logo nor any information about the project other than the project title and sibtitle.
+On the home, gallery and about pages an additional line of text sits above the footer. This was not included on the contact page as it was felt to be unnecessary for the page, as it does not contain any images other than the logo nor any information about the project other than the project title and subtitle.
 
 ![lower page text](docs/lower-page-text.png)
 
@@ -116,17 +116,17 @@ This then resizes to one image when viewed on a smaller screen.
 
 Styling of this page was consistently tested to ensure that the page met all the criteria in the website aims. Several ideas were discarded early on - including the previously mentioned idea of having a background image. The idea of a banner included in the original wireframe design was also excluded as this was felt that it could become a distraction. 
 
-Four images were selected as it was thought more than this would be too much for the home page when there ws a specific page for the gallery.
+Four images were selected as it was thought more than this would be too much for the home page when there was a specific page for the gallery.
 
 **Gallery Page**
 
 The gallery page was recognised to be likely the most complex early on in the design of the site. It would be an image heavy page and there were a number of considerations regarding how best to display the photographs from the project. 
 
-Originally it was thought that perhaps follwing the wireframe design of columns and rows would be best. However, it was quickly realised after this was tested that the images would suffer in that there would be no way of re-sizing the images to see them in greater detail if this design format was maintained. 
+Originally it was thought that perhaps following the wireframe design of columns and rows would be best. However, it was quickly realised after this was tested that the images would suffer in that there would be no way of re-sizing the images to see them in greater detail if this design format was maintained. 
 
 Various ideas in terms of resizing the columns and rows were considered. Also a way of the user clicking on an image and having it re-size to a larger size was also considered as an option. 
 
-The choice of the carousel slide gallery meant that selected images could be larger on desktops and give an appealing look to the page, rather than just images that would be difficult to view in detail. In addition the carousel could also text, creating a more dynamic site, and giviing the user a more interesting experience in viewing the images. 
+The choice of the carousel slide gallery meant that selected images could be larger on desktops and give an appealing look to the page, rather than just images that would be difficult to view in detail. In addition the carousel could also have text, creating a more dynamic site, and giviing the user a more interesting experience in viewing the images. 
 
 ![carousel image 1](docs/carousel-1.png)
 ![carousel image 2](docs/carousel-2.png)
@@ -135,11 +135,11 @@ Desktop carousel images
 
 ![small screen carousel image](docs/mob-gallery.png)
 
-Originally it was thought that the carousel would be the only set of images on the page, but as the development continued it was decided that additional images could be displayed below the carousel. The same design criteria in terms of how many images would sit in a column was copied from the home page to keep the site design feeling consistent. However the number of rows was increased to differentiate between the two pages.
+Originally it was thought that the carousel would be the only set of images on the page, but as the development continued it was decided that additional images could be displayed below the carousel. The same design criteria in terms of how many images would sit in a column was copied from the home page to keep the site design feeling consistent. However the number of rows were increased to differentiate between the two pages.
 
 **About Page**
 
-The about page was, in contrast to the gallery page's complexity, the most simple in terms of content. This was a page solely of text and therefore the key part of this was the textual content rather than any images,therefore the styling was kept as simple as possible. 
+The about page was, in contrast to the gallery page's complexity, the most simple in terms of content. This was a page solely of text and therefore the key part of this was the textual content rather than any images, consequently the styling was kept as simple as possible. 
 
 ![about page on desktop](docs/about-text.png)
 
@@ -150,13 +150,13 @@ Other than keeping the styling consistent this page was kept clear from any imag
 
 **Contact Page**
 
-The contact page was also devoid of any images. It was decided to keep the same feel on this page in conjuction with the about page - as therefore there would not be one page that in particular stood out for not having the same things as the others. The only difference on this page of course is the previously mentioned lack of a line of text above the footer. 
-
-![contact page on desktop](docs/contactform.png)
+The contact page was also devoid of any images. It was decided to keep the same feel on this page in conjuction with the about page - as it would mean there would not be one page that in particular stood out for not having the same things as the others. The only difference on this page of course is the previously mentioned lack of a line of text above the footer. 
 
 The contact page on desktop
 
-This was not included as it was felt it would detract from the submit button below the contact form.
+![contact page on desktop](docs/contactform.png)
+
+The line of text was not included as it was felt it would detract from the submit button below the contact form.
 
 ![contact page on small screen](docs/mob-contact.png)
 
@@ -168,7 +168,9 @@ The submit button is simply styled. Other styles were tried, however none seemed
 
 The CSS for the site was limited in terms of amount. As the design of the site was kept as simple as possible the number of classes required for styling is minimal. The colour scheme and font styling are consistent across the individual pages and consequently, little styling was required other than to ensure that text and images were appropriately sized and were responsive depending on what device the user had to view the site. 
 
-CSS was continually worked on during the development of the site. Pixels were cange to rem as this ensured more consistent sizing for the fonts. Testing was undertaken throughout the process.
+Some code within the stylesheet was discussed with my mentor as it appears to duplicate itself, specifically the text styling, gallery and index images. However, I felt it was best to keep these with separate classes so that if there were future amendments that were required, the css was already set up to accommodate changes in this way.
+
+CSS was continually worked on during the development of the site. Pixels were changed to rem as this ensured more consistent sizing for the fonts. Testing was undertaken throughout the process.
 
 ## Testing
 
@@ -191,6 +193,7 @@ The pages passed vaildation checks after a few amendments - including one where 
 
 ![HTML Checking](docs/html-check.png)
 ![CSS Checking](docs/css-check.png)
+![Lighthouse checking](docs/lighthouse.png)
 
 ## Deployment
 
