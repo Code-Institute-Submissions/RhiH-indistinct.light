@@ -166,9 +166,9 @@ CSS was continually worked on during the development of the site. Pixels were ch
 
 ## Testing
 
-Testing the code was a continual process and edits were made throughout the site's developement. Issues occurred with the sizing of images, which was noticed when different screen sizes were trialed. Code was amended to ensure that these were not going to be future issues. During the developement, each stage was checked prior to moving on to adding additional code so as to be sure that what had already been written was working before any new changes were made.
+Testing the code was a continual process and edits were made throughout the site's development. Issues occurred with the sizing of images, which was noticed when different screen sizes were trialed. Code was amended to ensure that these were not going to be future issues. During the development, each stage was checked prior to moving on to adding additional code so as to be sure that what had already been written was working before any new changes were made.
 
-The contact form was re-sized as originally it was the width of the screen and this was not in keeping with the remainder of the pages. Consequently it as restyled.
+The contact form was re-sized as originally it was the width of the screen and this was not in keeping with the remainder of the pages. Consequently it was restyled.
 
 As there is only a small amount of CSS this was relatively easy to check. Errant code was cleaned regularly so as not to affect the correct code.
 
@@ -180,7 +180,7 @@ Changes to the code were committed regularly and notes were added to clarify wha
 
 ## Validation
 
-The pages passed vaildation checks after a few amendments - including one where the DOCTYPE had been let off 3 of the pages! After updating this only minor elements needed amending including a space between the aria labelling in the footer as it did not have one between that and the i class. testing with  and  were both trialled during the development stages so any minor errors were picked up earlier in the process and corrected. Towards the end of the work Lighthouse was also used to check the site.
+The pages passed validation checks after a few amendments - including one where the DOCTYPE had been let off 3 of the pages! After updating this only minor elements needed amending including a space between the aria labelling in the footer as it did not have one between that and the i class. testing with both css and html trialled during the development stages so any minor errors were picked up earlier in the process and corrected. Towards the end of the work Lighthouse was also used to check the site.
 
 ![HTML Checking](docs/html-check.png)
 ![CSS Checking](docs/css-check.png)
