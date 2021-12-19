@@ -1,6 +1,6 @@
 # **Indistinct Light**
 
-Indistinct Light was a photography project from late December 2020 to June 2021. It focused on images taken on the same route around the same time each night. One of the issues regarding the project was how to present the work to a wider audience when the majority of the work has never been in a gallery setting, and indeed many of the images remain virtual and have never been printed. A website for the project is a perfect solution.
+Indistinct Light was a photography project from late December 2020 to June 2021. It focused on images taken on the same route around the same time each night. One of the issues regarding the project was how to present the work to a wider audience when the majority of the work has never been in a gallery setting, and indeed many of the images remain virtual and have never been printed. A website for the project is the perfect solution.
 
 ![Indistinct Light Responsive Display](docs/responsive.png)
 
@@ -66,6 +66,8 @@ Also after some thought it was decided to stick to the first two colours and kee
 
 ### Consistent Styling Across All Pages
 
+**Header**
+
 The header on all pages has a navigation bar with a logo. Clicking the logo takes the user back to the home page. The styling was kept as clean and simple as possible, with a light background. It also incorporates a collapse button to enable ease of navigation on smaller screen sizes. This style was felt to be contemporary and in keeping with the goals of creating a site that has a professional feel to it, and presenting it as one that would be familiar to all who access websites regularly on their mobile phones.
 
 ![desktop navigation bar](docs/navbar-desktop.png)
@@ -73,13 +75,20 @@ The header on all pages has a navigation bar with a logo. Clicking the logo take
 Desktop Navigation
 
 ![small screen navigation bar](docs/navbar-smallscreen.png)
+
+In terms of the content of the navigation with regards to the text included, it was felt the best approach would be to keep things simple so as not to clutter the screen, especially on smaller screens. 
+
 ![small screen navigation menu](docs/mob-header.png)
 
 Mobile Navigation
 
-h1 and h2 were used to display the project title and subtitle. This is used consistently across all pages, to create a cohesive approach. It was included on the contact page as it was felt this was more consistent with the rest of the site.
+**Title and Subtitle**
+
+h1 and h2 were used to display the project title and subtitle. This is used consistently across all pages, to create a cohesive approach. Whilst it was not necessary to do so, it was included on the contact page as it was felt this was more consistent with the rest of the site.
 
 ![title and subtitle](docs/title-subtitle.png)
+
+**Footer**
 
 The footer contains social media links that launch in a new blank page. It was decided that Twitter, Pinterest and Instagram would be the most appropriate to use, as all three are often utilised by artists in sharing their work. All three have aria-hidden: true as this was thought to be the best approach. Also included is rel: no-referrer as a privacy enhancement.
 
@@ -210,9 +219,9 @@ I have used Bootstrap during this project, along with the validators for CSS and
 
 **Content:**
 
-All content and images was written by myself.
-Icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
-Font style chosen was the standard Optima stylistically it suited the project. 
+- Icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- Font style chosen was the standard Optima stylistically it suited the project. 
+- All content and images were created by me.
 
 
 
