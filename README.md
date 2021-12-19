@@ -7,7 +7,7 @@ Indistinct Light was a photography project from late December 2020 to June 2021.
 ### What is the Target Audience?
 
 - Clients who have an interest in the artist's work and wanting to see more of it.
-- Gallery owners/Artist reps who wish to see the work prior to any commitments e.g. offering space within their gallery or promoting the artist.
+- Gallery owners/artist reps who wish to see the work prior to any commitments e.g. offering space within their gallery or promoting the artist.
 - Other artists/creators who wish to see the work and work collaboratively together on future projects. 
 - Photography enthusiasts who have an interest in the type of photography undertaken.
 - Casual users who are not familiar with the artist's work or the type of work displayed here.
@@ -160,6 +160,45 @@ The submit button is simply styled. Other styles were tried, however none seemed
 The CSS for the site was limited in terms of amount. As the design of the site was kept as simple as possible the number of classes required for styling is minimal. The colour scheme and font styling are consistent across the individual pages and consequently, little styling was required other than to ensure that text and images were appropriately sized and were responsive depending on what device the user had to view the site. 
 
 CSS was continually worked on during the development of the site. Pixels were cange to rem as this ensured more consistent sizing for the fonts. Testing was undertaken throughout the process.
+
+## Testing
+
+Testing the code was a continual process and edits were made throughout the site's developement. Issues occurred with the sizing of images, which was noticed when different screen sizes were trialed. Code was amended to ensure that these were not going to be future issues. During the developement, each stage was checked prior to moving on to adding additional code so as to be sure that what had already been written was working before any new changes were made.
+
+The contact form was re-sized as originally it was the width of the screen and this was not in keeping with the remainder of the pages. Consequently it as restyled.
+
+As there is only a small amount of CSS this was relatively easy to check. Errant code was cleaned regularly so as not to affect the correct code.
+
+A modal was added to trial a pop up style window for the images in the gallery, however this did not work as well as was hoped and therefore the code was removed and the carousel was added instead.
+
+Changes to the code were committed regularly and notes were added to clarify what the changes were.
+
+## Validation
+
+The pages passed vaildation checks after a few amendments - including one where the DOCTYPE had been let off 3 of the pages! After updating this only minor elements needed amending including a space between the aria labelling in the footer as it did not have one between that and the i class. testing with  and  were both trialled during the development stages so any minor errors were picked up earlier in the process and corrected. 
+
+## Deployment
+
+Deployment was via G pages. 
+
+Future Updates:
+
+I would like to continue adding images and potentially develop both the project and the site. There is capacity for more work to be created as a stage 2 of the Indistinct Light project, as a contrast to the original work. The site also has the capacity for development as it could incread in terms of number of pages, more information about the project, more images and also links to other work by myself.
+
+## Honorable mentions:
+
+A huge thank you to my mentor Richard without whom this project would not have progressed forward.
+
+The community on Slack who unknowingly assisted by asking questions months before I began this project, and the answers therein I found invaluable.
+
+Credits 
+
+## Content:
+
+All content and images was written by myself.
+Icons in the footer were taken from Font Awesome.
+
+
 
 
 
