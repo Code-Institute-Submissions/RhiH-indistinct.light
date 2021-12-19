@@ -180,7 +180,7 @@ Changes to the code were committed regularly and notes were added to clarify wha
 
 ## Validation
 
-The pages passed vaildation checks after a few amendments - including one where the DOCTYPE had been let off 3 of the pages! After updating this only minor elements needed amending including a space between the aria labelling in the footer as it did not have one between that and the i class. testing with  and  were both trialled during the development stages so any minor errors were picked up earlier in the process and corrected. 
+The pages passed vaildation checks after a few amendments - including one where the DOCTYPE had been let off 3 of the pages! After updating this only minor elements needed amending including a space between the aria labelling in the footer as it did not have one between that and the i class. testing with  and  were both trialled during the development stages so any minor errors were picked up earlier in the process and corrected. Towards the end of the work Lighthouse was also used to check the site.
 
 ![HTML Checking](docs/html-check.png)
 ![CSS Checking](docs/css-check.png)
@@ -188,7 +188,7 @@ The pages passed vaildation checks after a few amendments - including one where 
 
 ## Deployment
 
-Deployment was via Github pages. This was tested in advance prior to the finished design as part ofthe testing of the site and learning the use of Github in general.
+Deployment was via Github pages. This was tested in advance prior to the finished design as part of the testing of the site and learning the use of Github in general.
 
 ## Future Updates:
 
@@ -214,7 +214,7 @@ I have used Bootstrap during this project, along with the validators for CSS and
 **Content:**
 
 - Icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
-- Font style chosen was the standard Optima stylistically it suited the project. 
+- Font style chosen was the standard Optima as stylistically it suited the project. 
 - All content and images were created by myself.
 
 
