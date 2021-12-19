@@ -41,10 +41,10 @@ A key part of the design was to keep in mind the website aims. Each part of the 
 
 #### Wireframes
 
-![index wireframe](/assets/images/index-wireframe.png)
-![gallery wireframe](assets/images/gallery-wireframe.png)
-![about wireframe](assets/images/about-wireframe.png)
-![contact wireframe](assets/images/contact-wireframe.png)
+![index wireframe](docs/index-wireframe.png)
+![gallery wireframe](docs/gallery-wireframe.png)
+![about wireframe](docs/about-wireframe.png)
+![contact wireframe](docs/contact-wireframe.png)
 
 These were created to have a flexible approach in terms of the structure, as the design could be amended as needed during the creation of the site as the development of it progressed. 
 
